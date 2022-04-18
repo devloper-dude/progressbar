@@ -119,3 +119,38 @@
         transform: rotateZ(-30deg);
     }
 }
+
+@media only screen and (max-width:500px){
+
+  input{
+    width: 200px;
+  }
+  h1{
+    font-size: 13px;
+  }
+  .button{
+    width: 100px;
+    height: 30px;
+  }
+  #sub p{
+    font-size: 14px;
+  }
+  #sub i{
+    font-size: 14px;
+  }
+  .yt h3{
+    font-size: 10px;
+  }
+  .subbtn{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .subbtn a {
+    text-decoration: none;
+    line-height: 30px;
+    width: 100px;
+
+}
+}
